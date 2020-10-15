@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+	<link rel="stylesheet" 
+          href= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+  	</script>
+   	<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> 
+    </script> 
+    <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> 
+    </script>
+    <title>Virtual Library Tour</title>
+</head>
+<body>
+	<div class="container">
+ 		<div class="header">
+ 			<img src="PICT-Logo.png" style="width: 100px;height: 100px;background: transparent; position: relative; clear: left; float: right;">
+ 			<h4><br>Society for Computer Technology and Research's</h4>
+ 			<h1>Pune Institute Computer Technology</h1>	
+ 		
+ 		<div class="header">
+ 			<div class="sections">
+ 				<a target="_self" >
+ 				<img src="i2.png" alt="About Library" onclick="myFunc()" class="dropbtn">
+ 			
+ 					<div id="dd" class="dropcont">
+ 					<a href="Lib1.mp4">Section A</a>
+ 					<a href="Lib1.mp4">Section B</a>
+ 					<a href="Lib1.mp4">Section C</a>
+ 					</div>
+ 				</a>
+ 			</div>
+
+ 		<a target="_self" href="diglib.html" >
+ 			<img src="i1.png" alt="Digital Library">
+ 		</a>
+ 		<a target="_self" href="fire.html" >
+ 			<img src="i3.png" alt="Find Resources">
+ 		</a>
+ 		<a target="_self" href="stsup.html" >
+ 			<img src="i4.png" alt="Student Support">
+ 		</a>
+ 		</div>
+ 		</div>
+
+		<div class="tabsection">
+ 			<div class="text-left">
+		<button style="margin-top:-20%;margin-left:-10%;" type="button" class="btn btn-success btn-lg float-left">PG Section</button>
+		</div>
+		<div class="text-center">
+		<button style="margin-top:-12%;margin-left:-50%;" type="button" class="btn btn-success btn-lg float-center">Digital Library</button>
+		</div>
+		<div class="text-center">
+		<button style="margin-top:-1%;margin-left:-20%;" type="button" class="btn btn-success btn-lg float-center">Group Study Area</button>
+		</div>
+		<div class="text-right">
+			<button id="UG" onclick="nextimg()" style="margin-top:-2%;" type="button" class="btn btn-success btn-lg float-right">UG Section</button>
+		</div>
+ 		</div>
+ 	</div>
+ 	<div class="footer">
+ 		<img src="i5.png" alt="Facebook" style="width: 50px; height: 50px;">
+ 		<img src="i6.png" alt="Twitter" style="width: 50px; height: 50px;">
+ 		<img src="i7.png" alt="YouTube" style="width: 50px; height: 50px;">
+ 	</div>
+ 	<script>
+ 		function myFunc(){
+ 			document.getElementById("dd").classList.toggle("show");
+ 		} 
+ 		window.onclick=function(event){
+ 			if (!event.target.matches(".dropbtn")){
+ 				var dropdowns = document.getElementsByClassName("dropcont");
+ 				var i;
+ 				for (i=0; i<dropdowns.length; i++){
+ 					var openDropdown = dropdowns[i];
+ 					if (openDropdown.classList.contains('show')){
+ 						openDropdown.classList.remove('show');
+ 					}
+ 				}
+ 			}
+ 		}
+
+ 		
+ 	</script>
+ </body>
+ </html>

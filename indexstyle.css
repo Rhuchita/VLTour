@@ -10,7 +10,7 @@
 }
 .header{
 	min-width: 1050px;
-	background: linear-gradient(to right, #ff306f, #ffad28);
+	background: linear-gradient(to right, #00a1e3, #00a7e7);
 	margin-top: 0.1%;
 	display: inline-block;
 }
@@ -45,7 +45,7 @@ video{
 
 .footer{
 	margin-left: 0;
-	background: linear-gradient(to top, #23ff30, #fafffa);
+	background: linear-gradient(to top, #493100, #fafffa);
 }
 
 .dropbtn{

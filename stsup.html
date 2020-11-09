@@ -16,37 +16,33 @@
     <title>Virtual Library Tour</title>
 </head>
 <body>
+  <div class="header">
+      <img src="PICT-Logo.png" style="width: 100px;height: 100px;background: transparent; position: relative; clear: left; float: right;">
+      <h4><br>Society for Computer Technology and Research's</h4>
+      <h1>Pune Institute Computer Technology</h1> 
+      <div class="sections">
+        <a target="_self" >
+        <img src="i2.png" alt="About Library" onclick="myFunc()" class="dropbtn">
+      
+          <div id="dd" class="dropcont">
+          <a href="about.html">Section A</a>
+          <a href="about.html">Section B</a>
+          <a href="about.html">Section C</a>
+          </div>
+        </a>
+      </div>
+    <a target="_self" href="diglib.html" >
+      <img src="i1.png" alt="Digital Library">
+    </a>
+    <a target="_self" href="fire.html" >
+      <img src="i3.png" alt="Find Resources">
+    </a>
+    <a target="_self" href="stsup.html" >
+      <img src="i4.png" alt="Student Support">
+    </a>
+    </div>
+    </div>
 	<div class="container">
- 		<div class="header">
- 			<img src="PICT-Logo.png" style="width: 100px;height: 100px;background: transparent; position: relative; clear: left; float: right;">
- 			<h4><br>Society for Computer Technology and Research's</h4>
- 			<h1>Pune Institute Computer Technology</h1>	
- 		
- 		<div class="header">
- 			<div class="sections">
- 				<a target="_self" >
- 				<img src="i2.png" alt="About Library" onclick="myFunc()" class="dropbtn">
- 			
- 					<div id="dd" class="dropcont">
- 					<a href="about.html">Section A</a>
- 					<a href="about.html">Section B</a>
- 					<a href="about.html">Section C</a>
- 					</div>
- 				</a>
- 			</div>
-
- 		<a target="_self" href="diglib.html" >
- 			<img src="i1.png" alt="Digital Library">
- 		</a>
- 		<a target="_self" href="fire.html" >
- 			<img src="i3.png" alt="Find Resources">
- 		</a>
- 		<a target="_self" href="stsup.html" >
- 			<img src="i4.png" alt="Student Support">
- 		</a>
- 		</div>
- 		</div>
-
  		<div class="central">
  			<p>
  				About student support(eg. Library hours, reading hall hours).############################################<br>
@@ -54,11 +50,12 @@
  			</p>
  			<video preload="" autoplay=""><source src="Lib1.mp4" type="video/mp4">"Facilities provided by Central Library of PICT"</video>
  		</div>
+  </div>
  	<div class="footer">
- 		<img src="i5.png" alt="Facebook" style="width: 50px; height: 50px;">
- 		<img src="i6.png" alt="Twitter" style="width: 50px; height: 50px;">
- 		<img src="i7.png" alt="YouTube" style="width: 50px; height: 50px;">
- 	</div>
+    <img src="i5.png" alt="Facebook" style="width: 50px; height: 50px;">
+    <img src="i6.png" alt="Twitter" style="width: 50px; height: 50px;">
+    <img src="i7.png" alt="YouTube" style="width: 50px; height: 50px;">
+  </div>
  	<script>
  		function myFunc(){
  			document.getElementById("dd").classList.toggle("show");

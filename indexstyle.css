@@ -9,8 +9,8 @@
 	margin: 1px auto;
 }
 .header{
-	min-width: 100%;
-	background: linear-gradient(to right, #00a1e3, #00a7e7);
+	width: 100%;
+	background: linear-gradient(to right, #00a1e3, #00a1e3);
 	margin-top: 0.1%;
 	display: inline-block;
 }

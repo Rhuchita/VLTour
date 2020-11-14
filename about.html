@@ -19,74 +19,59 @@
 	
  		<div class="header">
  			<img src="PICT-Logo.png" style="width: 100px;height: 100px;background: transparent; position: relative; clear: left; float: right;">
- 			<h4><br>Society for Computer Technology and Research's</h4>
- 			<h1>Pune Institute Computer Technology</h1>	
- 		
- 		<div class="header">
- 			<div class="sections">
- 				<a target="_self" >
- 				<img src="i2.png" alt="About Library" onclick="myFunc()" class="dropbtn">
- 			
- 					<div id="dd" class="dropcont">
- 					<a href="Lib1.mp4">Section A</a>
- 					<a href="Lib1.mp4">Section B</a>
- 					<a href="SectionC.html">Section C</a>
- 					</div>
+ 			<div class="jumbotron text-light" style="background-color: #00a1e3;">
+ 				<h4 class="display-6">Society for Computer Technology and Research's<br></h4>
+  				<h1 class="display-4">Pune Institute Computer Technology</h1>
+  			</div>
+ 				<a target="_self" href="about.html">
+ 				<img src="i2.png" alt="About Library" >
  				</a>
- 			</div>
-
- 		<a target="_self" href="diglib.html" >
- 			<img src="i1.png" alt="Digital Library">
- 		</a>
- 		<a target="_self" href="fire.html" >
- 			<img src="i3.png" alt="Find Resources">
- 		</a>
- 		<a target="_self" href="stsup.html" >
- 			<img src="i4.png" alt="Student Support">
- 		</a>
- 		</div>
+ 				<a target="_self" href="diglib.html" >
+ 				<img src="i1.png" alt="Digital Library">
+ 				</a>
+ 				<a target="_self" href="fire.html" >
+ 				<img src="i3.png" alt="Find Resources">
+ 				</a>
+ 				<a target="_self" href="stsup.html" >
+ 				<img src="i4.png" alt="Student Support">
+ 				</a>
  		</div>
 
  	<div class="container">
 
-		<div class="tabsection">
- 			<div class="text-left">
-		<button style="margin-top:-20%;margin-left:-10%;" type="button" class="btn btn-success btn-lg float-left">PG Section</button>
-		</div>
-		<div class="text-center">
-		<button style="margin-top:-12%;margin-left:-50%;" type="button" class="btn btn-success btn-lg float-center">Digital Library</button>
-		</div>
-		<div class="text-center">
-		<button style="margin-top:-1%;margin-left:-20%;" type="button" class="btn btn-success btn-lg float-center">Group Study Area</button>
-		</div>
-		<div class="text-right">
-			<button id="UG" onclick="nextimg()" style="margin-top:-2%;" type="button" class="btn btn-success btn-lg float-right">UG Section</button>
-		</div>
- 		</div>
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<a target="_self" href="Lib1.mp4">
+      		<img src="Section1_temp.jpg" class="d-block w-100" alt="Section A" style="height: 90%;">
+  		</a>
+    </div>
+    <div class="carousel-item">
+    	<a target="_self" href="Lib1.mp4">
+    		<img src="hmpg.jpg" class="d-block w-100" alt="Section B" style="height: 90%;">
+  		</a>
+    </div>
+    <div class="carousel-item">
+    	<a target="_self" href="SectionC.html">
+      		<img src="SectionC.jpeg" class="d-block w-100" alt="Section C" style="height: 90%;">
+      	</a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
  	</div>
  	<div class="footer">
  		<img src="i5.png" alt="Facebook" style="width: 50px; height: 50px;">
  		<img src="i6.png" alt="Twitter" style="width: 50px; height: 50px;">
  		<img src="i7.png" alt="YouTube" style="width: 50px; height: 50px;">
  	</div>
-<script>
- 		function myFunc(){
- 			document.getElementById("dd").classList.toggle("show");
- 		} 
- 		window.onclick=function(event){
- 			if (!event.target.matches(".dropbtn")){
- 				var dropdowns = document.getElementsByClassName("dropcont");
- 				var i;
- 				for (i=0; i<dropdowns.length; i++){
- 					var openDropdown = dropdowns[i];
- 					if (openDropdown.classList.contains('show')){
- 						openDropdown.classList.remove('show');
- 					}
- 				}
- 			}
- 		}
 
- 		
- 	</script>
  </body>
  </html>

@@ -1,0 +1,14 @@
+/* SECTION IMAGES AND TEXT */
+.secBImages{
+  padding: 0 100px 100px 100px;
+}
+
+.secBImgTag{
+  max-height: 40vh;
+}
+
+.ImgSecP{
+  font-size: 30px;
+  text-align: center;
+  color: #134e7d;
+}

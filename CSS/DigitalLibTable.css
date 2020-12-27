@@ -1,0 +1,16 @@
+.table_title{
+  font-size: 20px;
+  color: black;
+}
+
+.table_content{
+  font-size: 15px;
+}
+
+.DigitalLibraryTable{
+  padding: 40px 90px;
+}
+
+table {
+    border-collapse: separate;
+}

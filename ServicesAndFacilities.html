@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <title>Virtual Library Tour</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
-  <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />
+  <!-- <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" /> -->
+  <!-- <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" /> -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -19,20 +19,20 @@
 
 <body>
   <!-- Header -->
-  	<div class="container-fluid header">
-    	<div class="row">
-      		<div class="col-lg-2 header-logo">
-        	<a href="https://pict.edu/"><img src=".\Assets\Images\Logo\PICT_Logo.png" alt="PICT Logo"></a>
-      		</div>
-      		<div class="col-lg-10 header-text">
-        		<p class="header-para">Society for Computer Technology and Research's</p>
-        		<h1 class="header-h1"><strong>Pune Institute Computer Technology</strong></h1>
-      		</div>
-    	</div>
-  	</div>
+  <div class="container-fluid header">
+    <div class="row">
+      <div class="col-lg-2 header-logo">
+        <a href="https://pict.edu/"><img src=".\Assets\Images\Logo\PICT_Logo.png" alt="PICT Logo"></a>
+      </div>
+      <div class="col-lg-10 header-text">
+        <p class="header-para">Society for Computer Technology and Research's</p>
+        <h1 class="header-h1"><strong>Pune Institute Computer Technology</strong></h1>
+      </div>
+    </div>
+  </div>
 
   <!-- Navbar -->
-<div class="container-fluid navbarContainerFluid">
+  <div class="container-fluid navbarContainerFluid">
 
     <nav class="navbar navbar-expand-lg navbar-dark navbarContainer">
     <li class="nav-item navBarItem dropdown">
@@ -83,7 +83,7 @@
       <span>Reading Hall: 8am to 10pm</span><br>
       <span>(extended during examination)</span>
     </div>
-    <div  id="recommend" style="margin-left: -6%;">
+    <div  id="recommend">
       <h2>Recommended reading</h2><br>
       <span>List of topics to select from as shown below </span><br>
       <input type="checkbox" id="ai_and_ml" name="ai_ml">
@@ -120,70 +120,45 @@
     </div>
   </div>
 
-  <!-- Carousel -->
-  <div class="col-xl-5 container Carousel-container">
-    <h2 class="Carousel-h2">PICT Library</h2>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
 
-        <div class="item active">
-          <img src=".\Assets\Images\Sections\Periodical\Magazine.jpg" alt="Magazine Section" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Magazine Section</h3>
-            <p>A2 - Building, Ground Floor</p>
-          </div>
+
+  <!-- CONTENT -->
+  <div class="col-xl-5 container serviceAndFacilitiesContainer">
+    <ul class="list-group ulNoBottomMargin">
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Library Facility</strong>: Beyond College Timing</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Open Access System</strong>: Any Student Can Browse Any Books From The Shelves</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Toppers</strong> can borrow 5 additional books for a Semester</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Under <strong>Book Bank Scheme</strong>, Any Student Can Borrow 3 Additional Books For A Semester</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Book Transaction Facility</strong>: Supported With Library Management Software For Which Books And
+        Identity Cards Are Bar-Coded</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Student Participation</strong> In Book And Journal Procurement</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Current Awareness Service <strong>(CAS)</strong></li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Organizing Screening Of <strong>Motivational Videos</strong></li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Various Days Celebration</strong> Like Vachan Prerana Din, Constitution Day, Marathi Bhasha Din, etc</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Competitive Exam</strong> Information</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Display Of <strong>New Arrivals</strong> On Web Site</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Orientation</strong> Programme For New Students</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Training Program On <strong>‘Effective Utilization Of E-Resources’</strong></li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Separate Seating Arrangement</strong> For:
+        <div class="container serviceAndFacilitiesItemsSublist">
+          <ul class="list-group list-group-flush ulNoBottomMargin">
+            <li class="list-group-item ULSublist list-group-item-success"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;Faculty</li>
+            <li class="list-group-item ULSublist list-group-item-success"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;PG & Ph. D. Students</li>
+            <li class="list-group-item ULSublist list-group-item-success"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;Periodical Reading</li>
+            <li class="list-group-item ULSublist list-group-item-success"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;Group Discussion</li>
+          </ul>
         </div>
+      </li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Facility Of In-House <strong>Identity Card</strong> Printing</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Display Of <strong>New Arrivals</strong></li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-primary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;<strong>Reprographic</strong> Facility</li>
+      <li class="list-group-item serviceAndFacilitiesItems list-group-item-secondary"><i class="fas fa-book-reader"></i>&nbsp;&nbsp;&nbsp;Facility For <strong>Feedback and Suggestions</strong></li>
+    </ul>
 
-        <div class="item">
-          <img src=".\Assets\Images\Sections\Periodical\Magazine2.jpg" alt="Magazine Section" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Magazine Section</h3>
-            <p>A2 - Building, Ground Floor</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src=".\Assets\Images\Sections\Book Issue\Book Issue Counter.jpg" alt="Book Issue" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Desk Section</h3>
-            <p>A2 - Building, Ground Floor</p>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src=".\Assets\Images\Sections\Reading Hall\Reading Hall.jpg" alt="Reading Hall Section" style="width:100%;">
-          <div class="carousel-caption">
-            <h3>Reading Hall Section</h3>
-            <p>A2 - Building, First Floor Through Central Library</p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
   </div>
 
-
-
-	<!-- Right Pane -->
+    <!-- Right Pane -->
   <div class="col-md-2" id="right-pane">
       <div class="row" id="newarrivals">
         <h2>New Arrivals</h2>
@@ -215,26 +190,6 @@
       </div>
     </div>
 </div>
-
-
-  <!-- CONTENT -->
-  <!--div class="container-fluid totalLibraryContent">
-    <div class="container libraryContent">
-      <p class="contentText">Hello everyone!<br /><br />
-        You are most welcome to PICT Central Library!!<br /><br />
-        In this Virtual Tour you will find the features of the library, its resources, Digital Library, its services and facilities and the most important thing is its easy access to users.
-      </p>
-    </div>
-  </div>
-
-  <div class="container-fluid totalLibraryContent2">
-    <div class="container libraryContent2">
-      <p class="contentText">&nbsp;&nbsp;&nbsp;&nbsp;Central Library of PICT is known everywhere for its richest sources of information. It is said to be one of the best libraries in the region.<br><br>
-        &nbsp;&nbsp;&nbsp;&nbsp;It provides the required support to the Academic & Research activities. The Library is committed to respond to the needs of users by providing the right information at the right time.
-      </p>
-    </div>
-  </div-->
-  
 
   <!-- FOOTER -->
   <footer class="footersec section footer-classic context-dark bg-image" style="background: #2d3246;">
